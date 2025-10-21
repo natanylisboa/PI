@@ -3,7 +3,7 @@ package ifrn.pi.eventos.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@controller
+@Controller
 public class EventosController {
 	
 	@RequestMapping("/eventos/form")
@@ -11,7 +11,7 @@ public class EventosController {
 	
 	
 	public String form() {
-		return " formEvento";
+		return "formEvento";
 		
 	}
 
